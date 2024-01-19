@@ -1,0 +1,131 @@
+.modal-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.modal-buttons button {
+    border-radius: 32px;
+    width: 116px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor:  pointer;
+}
+
+.modal-buttons .save {
+    background: linear-gradient(41.01deg, #FF6E6D 0%, #FF3183 5.48%, #598BF3 88.77%, #657BEA 95.23%, #34B0DC 101.49%);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.modal-buttons .exit-wrapper {
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(41.01deg, #FF6E6D 0%, #FF3183 5.48%, #598BF3 88.77%, #657BEA 95.23%, #34B0DC 101.49%);
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 2px;
+}
+
+.modal-buttons .exit {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background: white;
+    background-clip: text;
+    color: linear-gradient(41.01deg, #FF6E6D 0%, #FF3183 5.48%, #598BF3 88.77%, #657BEA 95.23%, #34B0DC 101.49%);
+    text-fill-color: transparent;
+}
+
+
+.modal-buttons .yes-button {
+    border: 1px solid #09DDD0;
+    color: #09DDD0;
+    background: white;
+    border-radius: 24px;
+    width: 91px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modal-buttons button img {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.modal-buttons .no-button {
+    border: 1px solid #FF9161;
+    color: #FF9161;
+    background: white;
+    border-radius: 24px;
+    width: 91px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.desktop-qr-modal p {
+    /*font-weight: 400;*/
+    /*font-size: 14px;*/
+    line-height: 18px;
+    text-align: center;
+}
+
+.coupon-grey-shadow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 8px 8px 80px 0px #0400D966;
+    -moz-box-shadow:  8px 8px 80px 0px #0400D966;
+    box-shadow: 8px 8px 80px 0px #0400D966;
+    height: 141.25px;
+    width: 180px;
+}
+
+.coupon-grey {
+    height: 141.25px;
+    width: 180px;
+    background-size: contain;
+    transform: scale(1.1);
+    text-shadow: -5px -4px 4px rgba(0,0,0,0.14);
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .show {
+    display: block;
+  }
+  
