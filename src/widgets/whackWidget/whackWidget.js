@@ -1,7 +1,7 @@
 import { widgetHtmlService, QrCodeModal, localStorageService } from '@/services';
 import './styles.css';
 import { WhackHammer, WhackMole00, WhackMole01Reversed, WhackMoleHit } from '@/сonstants';
-import { createCloseMoveButtons } from '@/utlis';
+// import { createCloseMoveButtons } from '@/utlis';
 import boomio from '@/services/boomio';
 
 class WhackWidget {
@@ -67,14 +67,14 @@ class WhackWidget {
     `;
     widgetHtmlService.container.appendChild(myCanvas);
 
-    const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
+    // const isMobile = window.innerWidth <= 768; // Adjust the threshold as needed
 
-    createCloseMoveButtons(
-      myCanvas.querySelector('.boomio-mole'),
-      document.getElementById('boomio-whack-container'),
-      isMobile ? [-130, -330] : [-150, -450],
-      false,
-    );
+    // createCloseMoveButtons(
+    //   myCanvas.querySelector('.boomio-mole'),
+    //   document.getElementById('boomio-whack-container'),
+    //   isMobile ? [-130, -330] : [-150, -450],
+    //   false,
+    // );
   }
 
   addCardEventListeners() {
