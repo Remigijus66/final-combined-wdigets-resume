@@ -1,3 +1,6 @@
+// npm install gulp-cli -g
+// npm install gulp -D
+
 const gulp = require('gulp');
 const shell = require('gulp-shell');
 

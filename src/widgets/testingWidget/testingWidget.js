@@ -152,7 +152,7 @@ class TestingWidget {
         </div>
         <div class='coupon__preview__body coupon_discount_modal'>
      
-            <span> Games </span>
+                     <span > Games </span>
             <div class='coupon__preview__card__header_buttons text-center d-block'>
 
             ${buttonsHtml}          
